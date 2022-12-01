@@ -244,7 +244,6 @@ nav{
 	width: 400px;
 	height: 340px;
 	float: left;
-
 	cursor: pointer;
 }
 .campaign_content_box img{
@@ -258,7 +257,8 @@ nav{
 .campaign_content_box:hover img{
 	transform: translate(-50%,-50%) scale(1.2);
 }
-
+.campaign_content_box:nth-child(2){
+	margin: 0 40px;
 }
 .campaign_content_box:nth-child(3){
 	margin: 0;
@@ -542,6 +542,567 @@ footer{
 .footer_test p:nth-child(1){
 	padding-bottom: 14px;
 }
+
+
+/* 반응형 1280 */
+@media screen and (max-width : 1280px){
+	header{
+		height: 7vw;
+	}
+    .header_area{
+		width: 100%;
+	}
+
+	
+	.mainimg_section{
+		height: 39.9vw;
+	}
+	.mainimg_area{
+		width: 100%;
+	}
+	.main_img_text{
+		position: absolute;
+		width: 100%;
+		height: 24vw;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+	.main_img_text>p{
+		font-size: 5vw;
+		margin-bottom: 3.3vw;
+	}
+	.main_img_text>a{
+		width: 9.8vw;
+		height: 47px;
+		font-size: 1.3vw;
+	}
+
+
+	.news_area{
+		width: 100%;
+	}
+	.news{
+		width: 47vw;
+		height: 197px;
+	}
+	.news_content>a{
+		line-height: 54px;
+		font-size: 1.5vw;
+		cursor: pointer;
+	}
+	.slide_news{
+		width: 48.5vw;
+		height: 197px;
+		margin-left: 2.7vw;
+	}
+
+
+	.campaign_area{
+		width: 100%;
+	}
+	.campaign_title{
+		font-size: 3.5vw;
+		font-weight: 800;
+		color: #043763;
+		text-align: center;
+		padding: 45px 0 40px;
+	}
+	.campaign_about{
+		font-size: 1.6vw;
+		text-align: center;
+	}
+	.campaign_content_box{
+		width: 31.2vw;
+		height: 340px;
+		float: left;
+		cursor: pointer;
+	}
+	.campaign_content_box:nth-child(2){
+		margin: 0 2.1vw;
+	}
+	.campaign_img{
+		width: 31.4vw;
+		height: 227px;
+		background-color: black;
+		position: relative;
+		overflow: hidden;
+	}
+	.solve_main p{
+		font-size: 1.5vw;
+		color: white;
+		text-align: center;
+	}
+
+
+
+
+	.solve_area{
+		width: 100%;
+	}
+	.solve_title{
+		font-size: 4.4vw;
+		color: white;
+		font-weight: 800;
+		text-align: center;
+		padding: 60px 0 15px;
+	}
+	.solve_about{
+		font-size: 1.5vw;
+		color: white;
+		text-align: center;
+	}
+	.solve_main{
+		border: 1px solid white;
+		width: 18vw;
+		height: 325px;
+		border-radius: 40px;
+		float: left;
+	}
+	.solve_box{
+		width: 79.8vw;
+		height: 34vh;
+		margin: 0 0px;
+		margin: 0 auto;
+	}
+	.solve_main img{
+		width: 8.6vw;
+		height: 78px;
+		margin: 30px 4.6vw;
+	}
+	.solve_content2{
+		margin: 0 12vw;
+	}
+	.solve_line{
+		width: 13.5vw;
+		height: 1px;
+		background-color: white;
+		margin-bottom: 30px;
+		margin: 0 2.1vw 3.1vh;
+	}
+
+
+	.footer_area{
+		width: 100%;
+	}
+	.logo{
+		width: 14vw;
+	}
+	.menu_ul>li>a{
+		font-size: 1.5vw;
+		margin: 3.5vh 0;
+		line-height: 0px;
+	}
+	.login a{
+		line-height: 0px;
+		font-size: 1.3vw;
+		margin: 3.5vh 0;
+	}
+	.footer_left{
+		width: 48vw;
+		height: 100%;
+		float: left;
+	}
+	.footer_right{
+		width: 48vw;
+	}
+}
+
+/* 반응형 959 모바일 테블릿 버전*/
+
+@media screen and (max-width : 959px){
+	header{
+		height: 7vw;
+	}
+    .header_area{
+		width: 100%;
+	}
+
+	
+	.mainimg_section{
+		height: 625px;
+	}
+	.mainimg_area{
+		width: 100%;
+	}
+	.main_img_text{
+		position: absolute;
+		width: 100%;
+		height: 24vw;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+	.main_img_text>p{
+		font-size: 6vw;
+		margin-bottom: 3.3vw;
+	}
+	.main_img_text>a{
+		width: 9.8vw;
+		height: 47px;
+		font-size: 1.6vw;
+	}
+
+	.news_section{
+		height: 514px;
+	}
+	.news_area{
+		width: 100%;
+	}
+	.news{
+		width: 100%;
+		float: none;
+		height: 197px;
+	}
+	.news>p{
+		font-size: 28px;
+	}
+	.news_content>a{
+		line-height: 54px;
+		font-size: 21px;
+		cursor: pointer;
+	}
+	.slide_news{
+		width: 64vw;
+		height: 197px;
+		margin-left: 2.7vw;
+		float: none;
+		margin-left: 0;
+		margin-top: 30px;
+	}
+	.campaign_content_text{
+		font-size: 20px;
+		padding: 15px 0 9px;
+		margin-left: 4.4vw;
+	}
+	.campaign_date{
+		font-size: 18px;
+		color: #043763;
+		margin-left: 4.4vw;
+	}
+
+
+	.campaign_section{
+		width: 100%;
+		height: 1400px;
+	}
+	.campaign_area{
+		width: 100%;
+	}
+	.campaign_title{
+		font-size: 6.5vw;
+		font-weight: 800;
+		color: #043763;
+		text-align: center;
+		padding: 45px 0 40px;
+	}
+	.campaign_about{
+		font-size: 2.5vw;
+		text-align: center;
+	}
+	.campaign_content_box{
+		width: 89.2vw;
+		height: 340px;
+		float: left;
+		cursor: pointer;
+		margin-bottom: 40px;
+	}
+	.campaign_content_box:nth-child(2){
+		margin: 0 0 40px 0;
+	}
+	.campaign_img{
+		width: 89.4vw;
+		height: 227px;
+		background-color: black;
+		position: relative;
+		overflow: hidden;
+		margin: 0 4.4vw;
+	}
+	.solve_main p{
+		font-size: 1.5vw;
+		color: white;
+		text-align: center;
+	}
+
+
+
+
+
+	.solve_area{
+		width: 100%;
+	}
+	.solve_title{
+		font-size: 4.4vw;
+		color: white;
+		font-weight: 800;
+		text-align: center;
+		padding: 60px 0 15px;
+	}
+	.solve_about{
+		font-size: 1.5vw;
+		color: white;
+		text-align: center;
+	}
+	.solve_main{
+		border: 1px solid white;
+		width: 18vw;
+		height: 325px;
+		border-radius: 40px;
+		float: left;
+	}
+	.solve_box{
+		width: 79.8vw;
+		height: 34vh;
+		margin: 0 0px;
+		margin: 0 auto;
+	}
+	.solve_main img{
+		width: 8.6vw;
+		height: 78px;
+		margin: 30px 4.6vw;
+	}
+	.solve_content2{
+		margin: 0 12vw;
+	}
+	.solve_line{
+		width: 13.5vw;
+		height: 1px;
+		background-color: white;
+		margin-bottom: 30px;
+		margin: 0 2.1vw 3.1vh;
+	}
+
+
+	.footer_area{
+		width: 100%;
+	}
+	.logo{
+		width: 14vw;
+	}
+	.menu_ul>li>a{
+		font-size: 1.5vw;
+		margin: 3.5vh 0;
+		line-height: 0px;
+	}
+	.login a{
+		line-height: 0px;
+		font-size: 1.3vw;
+		margin: 3.5vh 0;
+	}
+	.footer_left{
+		width: 48vw;
+		height: 100%;
+		float: left;
+	}
+	.footer_right{
+		width: 48vw;
+	}
+}
+
+
+
+/* 반응형 570 모바일 버전*/
+
+@media screen and (max-width : 569px){
+	header{
+		height: 7vw;
+	}
+    .header_area{
+		width: 100%;
+	}
+
+	
+	.mainimg_section{
+		height: 625px;
+	}
+	.mainimg_area{
+		width: 100%;
+	}
+	.main_img_text{
+		position: absolute;
+		width: 100%;
+		height: 24vw;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+	.main_img_text>p{
+		font-size: 9.5vw;
+		margin-bottom: 3.3vw;
+	}
+	.main_img_text>a{
+		width: 21vw;
+		height: 47px;
+		font-size: 16px;
+	}
+
+	.news_section{
+		height: 514px;
+	}
+	.news_area{
+		width: 100%;
+	}
+	.news{
+		width: 100%;
+		float: none;
+		height: 197px;
+	}
+	.news>p{
+		font-size: 28px;
+	}
+	.news_content>a{
+		line-height: 54px;
+		font-size: 3.4vw;
+		cursor: pointer;
+	}
+	.news_date{
+		position: absolute;
+		right: 0;
+		top: 0;
+		padding: 4px 7px;
+		border: 1px solid #043763;
+		border-radius: 40px;
+		top: 50%;
+		font-size: 3vw;
+		transform: translateY(-50%);
+	}
+	.slide_news{
+		width: 64vw;
+		height: 197px;
+		margin-left: 2.7vw;
+		float: none;
+		margin-left: 0;
+		margin-top: 30px;
+	}
+	.campaign_content_text{
+		font-size: 20px;
+		padding: 15px 0 9px;
+		margin-left: 4.4vw;
+	}
+	.campaign_date{
+		font-size: 18px;
+		color: #043763;
+		margin-left: 4.4vw;
+	}
+
+
+	.campaign_section{
+		width: 100%;
+		height: 1400px;
+	}
+	.campaign_area{
+		width: 100%;
+	}
+	.campaign_title{
+		font-size: 10.5vw;
+		font-weight: 800;
+		color: #043763;
+		text-align: center;
+		padding: 45px 0 40px;
+	}
+	.campaign_about{
+		font-size: 3.5vw;
+		text-align: center;
+	}
+	.campaign_content_box{
+		width: 89.2vw;
+		height: 340px;
+		float: left;
+		cursor: pointer;
+		margin-bottom: 40px;
+	}
+	.campaign_content_box:nth-child(2){
+		margin: 0 0 40px 0;
+	}
+	.campaign_img{
+		width: 89.4vw;
+		height: 227px;
+		background-color: black;
+		position: relative;
+		overflow: hidden;
+		margin: 0 4.4vw;
+	}
+	.solve_main p{
+		font-size: 1.5vw;
+		color: white;
+		text-align: center;
+	}
+
+
+
+
+
+	.solve_area{
+		width: 100%;
+	}
+	.solve_title{
+		font-size: 4.4vw;
+		color: white;
+		font-weight: 800;
+		text-align: center;
+		padding: 60px 0 15px;
+	}
+	.solve_about{
+		font-size: 1.5vw;
+		color: white;
+		text-align: center;
+	}
+	.solve_main{
+		border: 1px solid white;
+		width: 18vw;
+		height: 325px;
+		border-radius: 40px;
+		float: left;
+	}
+	.solve_box{
+		width: 79.8vw;
+		height: 34vh;
+		margin: 0 0px;
+		margin: 0 auto;
+	}
+	.solve_main img{
+		width: 8.6vw;
+		height: 78px;
+		margin: 30px 4.6vw;
+	}
+	.solve_content2{
+		margin: 0 12vw;
+	}
+	.solve_line{
+		width: 13.5vw;
+		height: 1px;
+		background-color: white;
+		margin-bottom: 30px;
+		margin: 0 2.1vw 3.1vh;
+	}
+
+
+	.footer_area{
+		width: 100%;
+	}
+	.logo{
+		width: 14vw;
+	}
+	.menu_ul>li>a{
+		font-size: 1.5vw;
+		margin: 3.5vh 0;
+		line-height: 0px;
+	}
+	.login a{
+		line-height: 0px;
+		font-size: 1.3vw;
+		margin: 3.5vh 0;
+	}
+	.footer_left{
+		width: 48vw;
+		height: 100%;
+		float: left;
+	}
+	.footer_right{
+		width: 48vw;
+	}
+}
+
 
 
 

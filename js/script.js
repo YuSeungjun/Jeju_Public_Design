@@ -1,5 +1,6 @@
-// 공지 이미지 슬라이드
+alert("미완성 홈페이지 입니다. - 유승준")
 
+// 공지 이미지 슬라이드
 imgslide();
 function imgslide(){
   $val = $(".slide_box").attr("val");
